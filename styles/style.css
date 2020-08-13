@@ -11,7 +11,10 @@ body {
     font-size: 16px;
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+
 
 h1 {
     font-weight: bolder;
@@ -32,6 +35,7 @@ h3 {
 nav {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     width: 100%;
     position: fixed;
     height: 50px;
@@ -45,6 +49,7 @@ ul {
     justify-content: space-around;
     list-style: none;
     align-items: flex-end;
+    padding-right: 30px;
    
 }
 
@@ -55,6 +60,7 @@ li {
 nav > img {
     height: 7vh;
     width: 22vh;
+    margin-left: 30px;
 }
 
 .headerimage {
@@ -91,6 +97,7 @@ p {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 300px;
 }
 
 div > img {
@@ -109,6 +116,7 @@ div > img {
     justify-content: space-between;
     height: 600px;
     font-size: 1.2rem;
+    padding-top: 50px;
 }
 
 
@@ -130,7 +138,6 @@ div > img {
 }
 
 .example img {
-    width: 20vw;
     height: 60vh;
     padding: 40px;
     display: flex;
@@ -151,4 +158,8 @@ div > img {
     flex-direction: column;
     justify-content: space-evenly;
     
+}
+
+a {
+    text-decoration: none;
 }
